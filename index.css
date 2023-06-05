@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: url("andrew-ruiz-piq14ys2G_A-unsplash.jpg") center no-repeat;
+  background: url("oh-la-la.jpeg") center no-repeat;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -74,25 +74,28 @@ h2 {
 .add-items input {
   padding: 10px;
 }
-.clear{
+.clear {
   display: flex;
   justify-content: start;
-  width:100%;
-  gap:10px;
+  width: 100%;
+  gap: 10px;
 }
-.btn-clear,.btn-check,.btn-uncheck{
+.btn-clear,
+.btn-check,
+.btn-uncheck {
   outline: none;
-  width:100%;
+  width: 100%;
   margin-top: 10px;
   border: 1px solid rgba(0, 0, 0, 0.6);
   padding: 10px;
 }
-.add-items input[type="submit"]{
+.add-items input[type="submit"] {
   background-color: greenyellow;
 }
-.btn-clear{
+.btn-clear {
   background-color: red;
 }
-.btn-check,.btn-uncheck{
+.btn-check,
+.btn-uncheck {
   background-color: navajowhite;
 }
